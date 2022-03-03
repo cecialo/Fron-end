@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    text-align: center;
+    margin: 5% 0;
+}
+.container{
+    width: 90%;
+    margin: auto;
+    background-color: steelblue;
+    height: 50vh;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.item{
+    width: 100px;
+    height: 100px;
+    background: gainsboro;
+    border: 2px solid;
+    box-sizing: border-box;
+    font-size: x-large;
+}
+.item:nth-child(2){
+    align-self: flex-start;
+}

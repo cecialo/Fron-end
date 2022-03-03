@@ -1,0 +1,45 @@
+
+<html>
+
+    <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+      <title>Ejercicio de selectores</title>
+      <link rel="stylesheet" href="CSS/Style.css"
+    </head>
+    
+    <body>
+      <h1 id="titulo">Estilos en la tabla</h1>
+      
+      <table border="2">
+        <caption>Título de la tabla</caption>
+        <thead>
+          <tr id="titulos">
+            <th scope="col"></th>
+            <th scope="col" class="especial">Título columna 1</th>
+            <th scope="col" class="especial">Título columna 2</th>
+          </tr>
+        </thead>
+    
+        <tbody>
+          <tr>
+            <th scope="row" class="especial" id="titulo_1">Título fila 1</th>
+            <td id="a">Donec purus ipsum</td>
+            <td id="c">Curabitur <em>blandit</em></td>
+          </tr>
+          <tr>
+            <th scope="row" id="titulo_2">Título fila 2</th>
+            <td id="d">Donec <strong id="e">purus ipsum</strong></td>
+            <td id="b">Curabitur blandit</td>
+          </tr>
+        </tbody>
+    
+        <tfoot>
+          <tr>
+            <th scope="col"></th>
+            <th scope="col" id="titulo_3">Título columna 1</th>
+            <th scope="col" id="titulo_4">Título columna 2</th>
+          </tr>
+        </tfoot>
+      </table>
+    </body>
+</html>

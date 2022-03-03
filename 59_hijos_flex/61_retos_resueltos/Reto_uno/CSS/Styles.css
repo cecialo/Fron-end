@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body div div{
+    margin: 10px;
+}
+/* FONDOS DE COLOR GENERICOS */
+.bg-skyblue{
+    background: skyblue;    
+}
+.bg-gold{
+    background: gold;
+}
+/* ALTOS DE PANTALLA GENERICOS*/
+.h-5{
+    height: 5vh;
+}
+.h-10{
+    height: 10vh;
+}
+.h-25{
+    height: 25vh;
+}
+.h-50{
+    height: 50vh;
+}
+.h-100{
+    height: 100vh;
+}
+/*FLEXBOX GENERICOS*/
+.d-flex{
+    display: flex;
+}
+.flex-column{
+    flex-direction: column;
+}
+.flex-row{
+    flex-direction: row;
+}
+/*BASES GENERICOS*/
+.basis-15{
+    flex-basis: 15%;
+}
+.basis-25{
+    flex-basis: 25%;
+}
+.basis-30{
+    flex-basis: 30%;
+}
+.basis-50{
+    flex-basis: 50%;
+}
+/*FLEX GENERICOS*/
+.flex-15{
+    flex: 15;
+}
+.flex-20{
+    flex: 20;
+}
+.flex-25{
+    flex: 25;
+}
+.flex-50{
+    flex: 50;
+}
+.flex-75{
+    flex: 75;
+}
+/*GROW Y SHINK GENERICOS*/
+.grow-1{
+    flex-grow: 1; /*CRECE*/
+}
+.grow-2{
+    flex-grow: 0; /*NO CRECE*/
+}
+.shink-0{
+    flex-shrink: 0; /*NO REAJUSTA TAMAÑO*/
+}

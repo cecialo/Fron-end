@@ -1,0 +1,14 @@
+a:visited{
+    color: red;
+    font-weight: bold;
+}
+a:hover{
+    background-color: red;
+    color: white;
+    padding: 2px;
+    text-decoration: none;
+}
+a:active{
+    color: green;
+    background-color: white;
+}

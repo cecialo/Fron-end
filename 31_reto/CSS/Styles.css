@@ -1,0 +1,9 @@
+.subrayado:nth-child(odd){
+   text-decoration: line-through;
+}
+.subrayado:nth-child(even){
+    text-decoration: underline;
+}
+.color:nth-child(4n+4){
+    color: green;
+}

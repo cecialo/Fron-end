@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="CSS/Styles.css"
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+        <img src="https://i0.wp.com/www.elpoderdelasideas.com/wp-content/uploads/facebook_2015_logo_detalles-550x191.png?resize=550%2C191"
+        alt="facebook"
+        width="120">
+       <form id="form_login" method="post" action="login.php.">
+           <span id="username">
+               <input type="text" name="username">
+           </span>
+           <span id="contraseña">
+               <input type="password" name="password">
+           </span>
+           <input type="submit" value="Log In" />
+           <a href="#">Forgotten account?</a>
+       </form> 
+       </div>
+    </header>
+    <main>
+        <form action="register" method="post">
+            <h1>Create a new account</h1>
+            <p>It´s free and always will be </p>
+            <div>
+                <input type="text" placeholder="First name">
+                <input type="text" placeholder="Surname">
+            </div>
+            <input type="email" placeholder="Mobile or email adrees">
+            <input type= "password" name="password" placeholder="New password">
+            <h6>Birthday</h6>
+            <div>
+            <input type="date" name="birthday">
+            <a href="#">Why do i need to provide my date of birth</a>
+            </div>
+            <label for="opt_fem">
+            <input type="radio" name="genero" value="female"> Female
+            </label>
+            <label for="opt_mal">
+            <input type="radio" name="genero" value="male"> Male
+            </label>
+            <p>
+                By clinik create Account, you agree to our. <a href="#">Tems</a> and confirm
+                that you heve read our <a href="#">Data policy</a>,including our <a href="#">Cookie use policy</a>.
+                You may receive SMS notification from 
+                Facebook and can opt out at ony trae.
+            </p>
+            <input type="submit" value="Create Account">
+        </form>
+    </main>
+</body>
+</html>

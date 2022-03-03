@@ -1,0 +1,11 @@
+img{
+    margin: 0px;
+    }
+    .ex1 img:hover {
+        margin-bottom: 100px;
+            position: absolute;
+    }
+.caja{
+    text-align:left;
+    color: green;
+}

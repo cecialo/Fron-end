@@ -1,0 +1,38 @@
+:root{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    /*
+    background-color: steelblue;
+    display: flex;
+    width: 200px;
+    
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    flex-flow: row wrap;
+    justify-content: space-between;
+    */
+    background: #CCC;
+    display: flex;
+    width: 200px;
+    height: 200px;
+    flex-wrap: wrap;
+    align-content: flex-end;
+}
+.item{
+    /*
+    background: gray;
+    width: 50%;
+    height: 100px;
+    margin: 10px;
+    border: 2px solid black;
+    color: white;
+    font-size: x-large;
+    */
+    background: #777;
+    width: 50%;
+    height: 50px;
+    outline: 2px solid black;
+}

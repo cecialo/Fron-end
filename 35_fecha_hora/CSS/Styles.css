@@ -1,0 +1,12 @@
+*{
+    font-size: large;
+}
+form{
+    margin-bottom: 50vh;
+}
+input{
+    display: block;
+}
+input [type="radio"] input [type="checkbook"]{
+    display: inline;
+}

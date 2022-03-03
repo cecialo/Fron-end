@@ -1,0 +1,41 @@
+*{
+    background-color: #212121;
+    border: none;
+}
+h1 {
+    color: white;
+    background-color: #42a3f4;
+    padding-top: 25px;
+    padding-right: 3px;
+    padding-bottom: 25px;
+    padding-left: 200px;
+    margin-top: 0px;
+    margin-right: 800px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+}
+section {
+    color: white;
+    background-color: #7d7d7d;
+    padding-top: 25px;
+    padding-right: 3px;
+    padding-bottom: 25px;
+    padding-left: 200px;
+    margin-top: 0px;
+    margin-right: 800px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+}
+input{
+    background-color: white;
+}
+label{
+    background-color: #7d7d7d;
+}
+.color{
+    background-color: #42a3f4;
+    padding-top: 5px;
+    padding-right: 2px;
+    padding-bottom: 5px;
+    padding-left: 60px;
+}

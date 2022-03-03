@@ -1,0 +1,20 @@
+body{
+    background-color: darkslategray;
+    margin: auto;
+    width: 500px;
+    height: 600px;
+}
+section{
+    background-color: skyblue;
+    width: 400px;
+    height: 400px;
+    margin: auto;
+}
+#genial{
+    background-color: tomato;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 200px;
+    left: 600px;
+}

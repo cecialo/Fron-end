@@ -1,0 +1,14 @@
+@import url("../../theme/index.css");
+@import url("global.css");
+.box{
+    width: var(--tamaño);
+    height: var(--tamaño);
+    margin-bottom: 10px;
+    background-color: var(--color-primario, purple);
+}
+.circle{
+    width: var(--tamaño);
+    height: var(--tamaño);
+    border-radius: 50%;
+    background-color: var(--color-secundario);
+}

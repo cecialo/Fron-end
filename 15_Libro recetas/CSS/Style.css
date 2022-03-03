@@ -1,0 +1,35 @@
+#titulo {
+  color: #333;
+  font-size: 20px;
+}
+#subtitulo {
+  color: #666;
+  font-size: 16px;
+}
+p {
+  color: #6f6f6f;
+  font-size: 20px;
+}
+li {
+  color: #6f6f6f;
+  font-size: 20px;
+}
+#ver {
+  font-style: 300px;
+  box-shadow: 2px;
+}
+a{
+  color: #00f;
+  font-size: 12px;
+}
+ul {
+  padding: 0px 22px 0px 22px;
+}
+li {
+  margin: 10px;
+}
+body{
+    font-style: Segoe UI;
+    box-shadow: 20px;
+    background-color: hsl(56, 100%, 95%);
+}

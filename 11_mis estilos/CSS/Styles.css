@@ -1,0 +1,82 @@
+body {
+    color: black;
+    font-family: Arial;
+    }
+h1 {
+    font-family: Verdana;
+   }
+p {
+    color: rgb(179, 255, 0);
+  }
+#oversized{
+    color: coral;
+    font-size: 3em;
+    font-weight:bold;
+    text-shadow: 2px 10px 1px pink;
+}
+div {
+    background: powderblue;
+    padding: 10%;
+}
+div p {
+    font-size: 30px;
+    word-spacing: 10px;
+}
+#caja_externa{
+    background: linen;
+    padding: 20px;
+}
+#caja_interna{
+    background-color: magenta;
+    margin: 20px;
+    padding: 40px;
+}
+p{
+    width: 100%;
+    height: 100px;
+    background: mediumpurple;
+}
+#oculto{
+    display: none;
+}
+
+p{
+    margin: 0;
+}
+.card{
+    background-color: antiquewhite;
+    width: 30%;
+    border-radius: 20px;
+}
+.card_head{
+    width: 300%;
+    height: 200px;
+    border-radius: 20px 20px 0px 0px;
+}
+.card_body{
+    background-color: orchid;
+    height: 60%;
+}
+.card_footer{
+    height: 40%;
+    border-radius: 0px 0px 20px 20px;
+}
+/*estilos para el texto */
+.texto_grande{
+    font-size: 2em;
+}
+.texto_mediano{
+    font-size: 14px;
+}
+.texto_pequeño{
+    font-size: 10px;
+}
+.texto_centrado{
+    text-align: center;
+}
+.texto_derecha{
+    text-align: start;
+}
+.texto_izquierda{
+    text-align: end;
+}

@@ -1,0 +1,24 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    background: #c0c0c0;
+}
+header{
+    width: 750px;
+    height: 250px;
+    background-color: purple;
+}
+#banner{
+    width: 500px;
+    height: 250px;
+    background: #000;
+    float: right;
+}
+#logo{
+    height: 125px;
+    width: 200px;
+    background: yellow;
+    float: left;
+}

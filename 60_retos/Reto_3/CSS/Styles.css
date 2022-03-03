@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rosybrown;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.image{
+    background-color: salmon;
+    margin: 20px;
+    padding: 20px;
+    width: 20%;
+    height: 20%;
+}
+input[type=button]{
+    background: purple;
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+}

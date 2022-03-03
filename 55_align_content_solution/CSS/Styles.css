@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    text-align: center;
+    margin: 5% 0;
+}
+.container{
+    width: 90%;
+    margin: auto;
+    background-color: steelblue;
+    height: 50vh;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    align-content: space-around;
+    justify-content: flex-start;
+}
+.item{
+    width: 100px;
+    height: 100px;
+    background: gainsboro;
+    border: 2px solid;
+    box-sizing: border-box;
+    font-size: x-large;
+}

@@ -1,0 +1,15 @@
+li{
+    font-size: x-large;
+}
+li:first-child{
+    color: green;
+}
+li:last-child{
+    color: red;
+}
+ol li:nth-last-child(3n+3){
+    background-color: gold;
+}
+ol li:nth-child(4){
+    background-color: hotpink;
+}

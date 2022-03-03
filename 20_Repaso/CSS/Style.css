@@ -1,0 +1,12 @@
+div#pagina div{
+    background-color: blue;
+}
+#pagina > div{
+    border: 2px solid yellow;
+}
+div.articulo span + span{
+    color: pink;
+}
+div.articulo strong ~ span{
+    color: aqua;
+}

@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+}
+body{
+    background-color: #ecf0f2;
+}
+header{
+    background-color: #4d6eaa;
+    height: 100px;
+}
+header .container{
+    padding: 30px;
+}
+header img{
+    float:left;
+}
+header form{
+    float:right;
+}
+#form_login span{
+    position: relative;
+}
+#form_login span::after{
+    position: absolute;
+    left: 0px;
+    top: -20px;
+    color: white;
+}
+#username::after{
+    content: "Email or phone";
+}
+#contraseña::after{
+    content: "Pasword";
+}
+#form_login input[type=submit]{
+    background: #5f80b5;
+    color: #fff;
+    border: 2px solid #456496;
+    padding: 2px 4px;
+    border-radius: 4px;
+}
+#form_login a{
+    color: #0a327c;
+    display: block;
+    text-decoration: none;
+    margin-left: 44%;
+    margin-top: 5px;
+}
+#form_login input[type=text]
+#form_login input[type=password]{
+    border: none;
+    width: 180px;
+}
+main{
+    padding: 2%;
+}
+main form{
+    width: 400px;
+    float: right;
+}

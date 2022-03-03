@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Local Storage</title>
+  </head>
+  <body>
+    <button onclick="login()">Iniciar Sesión</button>
+    <p id="nombre_usuario"></p>
+
+    <script>
+   	let time = sessionStorage.getItem("time");
+
+    function login() {
+      // check browser support
+      if (typeof Storage !== undefined) {
+        console.log("Almacenamiento soportado");
+        localStorage.setItem("username", "Orville46");
+        contarTiempo();
+      } else {
+        console.log("Upps!");
+      }
+    }
+
+    function logout() {
+      localStorage.removeItem("username");
+      time = 0;
+      sessionStorage.removeItem("time");
+    }
+
+    function contarTiempo() {
+      if (localStorage.getItem("username")) {
+        time++;
+        sessionStorage.setItem("time", time);
+      }
+    }
+
+    function mostrarInfo() {
+      const user = document.getElementById("nombre_usuario");
+      user.innerHTML = ` Usuario conectado: ${localStorage.getItem(
+        "username"
+      )} <br>  Tiempo de conexion : ${time} segundos`;
+    }
+
+    setInterval(() => {
+      mostrarInfo();
+      contarTiempo();
+    }, 1000);
+
+    </script>
+  </body>
+</html>
+
+

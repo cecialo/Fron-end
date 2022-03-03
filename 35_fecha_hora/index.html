@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="Stylesheet" href="CSS/Styles.css"
+    <title>Hora y Fecha</title>
+</head>
+<body>
+    <!--No olvides el enctype-->
+    <form name="formulario" method="post" action="/send.php" enctype="multipart/form-data">
+        <!--campo de entrada de fecha-->
+        Selecciona la fecha deseada:
+        <input 
+        type="date" 
+        name="fecha" 
+        min="2018-03-25" 
+        max="2018-05-25" 
+        step="2" />
+        <!--campo de entrada de hora-->
+        Selecciona la hora deseada
+        <input 
+        type="time" 
+        name="hora" 
+        min="18:00" 
+        max="21:00" 
+        step="3600" 
+        list="times"/>
+        <datalist id="times">
+            <option value="17:00:00"></option>
+            <option value="18:00:00"></option>
+            <option value="19:00:00"></option>
+            <option value="20:00:00"></option>
+            <option value="21:00:00"></option>
+            <option value="22:00:00"></option>
+        </datalist>
+        <!--Campo de entrada de mes-->
+        Selecciona el mes deseado:
+        <input 
+        type="month" 
+        name="mes"
+        value="2018-05"
+        min="2018-02"
+        max="2018-06"
+        step="2"/>
+        <!--Campo de entrada de semana-->
+        Selecciona la semana deseada:
+        <input
+        type="week"
+        name="semana"
+        value="2018-W18"
+        min="2018-W10"
+        max="2018-W20"
+        step="2"/>
+        <!--Botones de acción-->
+        <p>
+            Sexo:
+            <input 
+            type="radio" 
+            name="genero" 
+            value="H" /> Hombre
+            <input 
+            type="radio" 
+            name="genero" 
+            value="M" /> Mujer
+        </p>
+        <!--Casillas de verificación (marcada por defecto)-->
+        <input 
+        type="checkbox" 
+        name="empresa" 
+        checked />
+        ¿Eres autónomo/empresa
+        <!--Lista de selección-->
+        Selección de opción deseada:
+        <!--lista de seleccion multiple-->
+        <select name="combo" multiple>
+            <!--formato alternativo con atributo label-->
+            <optgroup label="Opciones básicas">
+            <option 
+            value="1" 
+            label="Opción 1">Opción 1</option>
+            </optgroup>
+            <optgroup label="Opciones avanzadas">
+            <option value="2" label="Opción 2">Opción 2</option>
+            <option value="3" label="Opción 3">Opción 3</option>
+            </optgroup>
+            <!--campo de texto combinado con lista de opciones-->
+            <input type="text" list="items" />
+            <!--lista de opciones-->
+            Selecciona la lista:
+            <datalist id="items" >
+            <option value="1">Opción 1</option>
+            <option value="2">Opción 2</option>
+            <option value="3">Opción 3</option>
+            </datalist>
+            <!--Color verde por defecto HEX(1B, F4,4A)-->
+            Selecciona el color deseado:
+            <input type="color" 
+            name="color" 
+            value="#1BF44A" />
+            <!--Campo de seleccion de archivo-->
+            Adjunta tu CV
+            <input type="file" 
+            name="adjunto" 
+            accept=".pdf,.jpg,.png" 
+            multiple />
+        </select>
+    </form>
+</body>
+</html>

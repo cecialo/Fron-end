@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0; 
+ }
+header{
+    text-align: center;
+    margin: 10px 0px;
+    color: violet;
+}
+section{
+    background-color: pink;
+    width: 100vh;
+    height: 50px;
+    margin: auto;
+}
+.contenedor{
+    background-color: plum;
+    color: white;
+    width: 50vh;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    float: right;
+}
+.parrafos{
+    background-color: white;
+    width: 50vh;
+}
+.text{
+    float: left;
+}
+.image{
+    background-color: violet;
+    width: 50vh;
+    height: 70vh;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+.uno{
+    background-color: purple;
+    width: 30vh;
+    height: 20vh;
+    margin: 30px;
+    padding: 5%;
+}
+.pie{
+    background-color: palevioletred;
+    width: 100vh;
+    height: 50px;
+    margin: auto;
+    display: flex;
+}
+.contenedor2{
+    background-color: plum;
+    color: white;
+    width: 50vh;
+    height: 20px;
+    margin: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    float: right;
+
+}
+.contenedor3{
+    background-color: violet;
+    color: white;
+    width: 20vh;
+    height: 20px;
+    margin: 15px;
+    display:flex;
+    flex-direction: nowrap;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}

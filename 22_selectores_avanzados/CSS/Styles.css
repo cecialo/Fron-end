@@ -1,0 +1,36 @@
+h1 , h2 {
+    color: red;
+}
+p{
+    color: blue;
+}
+section{
+    padding-top: 30px;
+    padding-right: 15px;
+    padding-bottom: 30px;
+    padding-left: 15px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    text-shadow: red;
+    box-shadow: 3px 3px 5px 5px gray
+}
+ul{
+    color: orange;
+}
+ol{
+    color: green;
+}
+.text-danger{
+    color: red;
+}
+.text-success{
+    color: green;
+}
+.badge-black{
+    background-color: black;
+}
+footer{
+   box-shadow: 3px 3px grey;
+}

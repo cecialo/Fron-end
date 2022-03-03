@@ -1,0 +1,27 @@
+* {
+    padding: 8px;
+    margin: 0;
+  }
+.form_header{
+    background-color: #4d6eaa;
+    padding-bottom: 0px;
+    text-align: center;
+}
+section {
+        text-align: center;
+        padding-bottom: 50px;
+        background-color: #ecf0f2;
+      }
+button{
+           
+        background-color: #72aa5e;
+      }
+#entrar{
+        background-color: #5f80b5;
+      }
+#text{
+  color: white;
+}
+
+
+

@@ -1,0 +1,18 @@
+body {
+     color: rgb(124, 15, 226);
+}
+section h1 small {
+    color: rgb(207, 20, 114);
+}
+#parrafo2{
+    color: rgb(216, 213, 7);
+}
+p#parrafo2{
+    color: rgba(0, 255, 42, 0.801);
+}
+.miclase{
+    color: rgb(241, 15, 15) !important;
+}
+.otraclase{
+    background-color: rgb(142, 223, 248);
+}
